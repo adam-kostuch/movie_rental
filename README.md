@@ -8,7 +8,7 @@
 ----
 ### About
 Movie rental is PHP orientet project made for school subject. Code is wrote in English, but the text in the website is mostly in Polish. The project requires SQL database `wypozyczalnia_filmow.sql`, on which the code is based on. Techonologies used to this project: 
-  - HTML
+  - HTML5
   - CSS3
   - PHP 
   - CRUD 
