@@ -1,0 +1,198 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+
+body{
+  color: white;
+  font-family: 'Squada One', cursive;
+  width: 100vw;
+  background-color: black;
+  overflow: hidden;
+}
+
+header{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("img/bg.png");
+  background-size: 100%;
+  background-position: 0vw -5vw;
+  background-repeat: no-repeat;
+}
+
+nav{
+  width: 80vw;
+  height: 10vh;
+  padding-top: 1vw;
+}
+
+div#logo{
+  width: 10%;
+  float: left;
+}
+
+div#logo:hover > a > img{
+  transform: rotate(40deg);
+  transition: .3s ease-in;
+}
+
+div#logo > a > img{
+  width: 45%;
+  height: 45%;
+}
+
+div#links{
+  width: 80%;
+  float: right;
+  padding-top: 1vw;
+}
+
+ul{
+  list-style-type: none;
+  width: 100%;
+}
+
+li{
+  float: right;
+  border-left: .05vw solid white;
+  padding: 0 1vw;
+  margin: 0 .2vw;
+}
+
+a{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2vw;
+  text-align: center;
+}
+
+li:hover{
+  color: wheat;
+  transition: .7s;
+}
+
+div#form, div#form3{
+  position: absolute; 
+  top: 30%;
+  left: 35%;
+  width: 35vw;
+  height: 35vh;
+  background: rgba(0, 0, 0, .7);
+}
+
+div#form2{
+  position: absolute; 
+  top: 30%;
+  left: 35%;
+  width: 35vw;
+  height: 40vh;
+  background: rgba(0, 0, 0, .7);
+}
+
+div#form4{
+  position: absolute; 
+  top: 123%;
+  left: 25%;
+  width: 50vw;
+  height: 55vh;
+  background: rgba(0, 0, 0, .7);
+}
+
+div#form > h1, div#form2 > h1, div#form3 > h1, div#form4 > h1{
+  margin: 3vw 0 1vw 5vw;
+  font-size: 2.5vw;
+}
+
+div#form3 > p{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2vw;
+}
+
+h1#up{
+  text-transform: uppercase;
+}
+
+td{
+  font-size: 1.2vw;
+}
+
+button{
+    border: none;
+    background: white;
+    font-family: 'Squada One', cursive;
+    color: black;
+    padding: .2vw;
+    min-width: 5vw;
+    font-size: 1.5vw;
+    margin: 1vw;
+}
+
+#powrot{
+    margin-left: 7vw;
+    text-align: center;
+}
+
+#offer_table{
+	overflow-y: scroll;
+  position: absolute;
+  top: 23%;
+	left: 10%;
+	height: 19vw; 
+  width: 40vw;
+	border-top: white 0.1vw solid; 
+	border-bottom: white 0.1vw solid;
+}
+
+div#offer_table > table > tr{
+	position: absolute;
+	top: 0%;
+}
+
+div#offer_table table tr td{
+	text-align: center;
+	width: 8vw;
+	height: 4vw;
+}
+
+div#wyszukaj{
+  position: absolute;
+  top: 8%;
+  left: 35%;
+}
+
+#edit_offers{
+	position: sticky;
+	bottom: 0%;
+	left: 100%;
+	width: 30vw;
+}
+
+.td_height{
+	height: 1vw;
+}
+
+#edit_offer{
+	position: absolute;
+	left: 15%;
+}
+
+div#edit_offer > button{
+	background: rgba(0, 0, 0, 0);
+}
+
+#klient_tr > th{
+  min-width: 7vw;
+}
+
+footer{
+    color: white;
+    position: sticky;
+    left: 0;
+    bottom: 5%;
+    width: 100vw;
+    clear: both;
+    font-size: 1vw;
+    text-align: center;
+}
